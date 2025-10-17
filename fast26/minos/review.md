@@ -18,14 +18,14 @@ established by the OP-Minimized Oracle for practical use in online systems and
 achieves significant WAF reductions over SOTA policies on a large set of
 real-world workloads.
 
-## Strengths
+### Strengths
 
 The authors articulate the motivation behind the work clearly and demonstrate
 significant improvements over SOTA. The paper and work are very thorough, and
 rigorously prove/demonstrate the effectiveness of the theory behind the
 OP-Minimized Oracle and practicality of the MINOS design.
 
-## Weaknesses
+### Weaknesses
 
 While the evaluation is thorough and comprehensive, there are a few aspects
 and takeaways that are unclear.
@@ -92,7 +92,7 @@ additional information.
   AggN (e.g., Agg8 and Agg32) indicates the number of adjacent blocks that share a
   metadata entry.
 
-## Nits
+### Nits
 
 - Page 5 (Reducing OP Space with Data Separation, last paragraph): "the total
   integrated volume this buffered invalid data" -- extra "this".
