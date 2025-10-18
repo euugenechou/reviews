@@ -28,25 +28,24 @@ OP-Minimized Oracle and practicality of the MINOS design.
 ### Weaknesses
 
 While the evaluation is thorough and comprehensive, there are a few aspects
-and takeaways that are unclear.
+about it and takeaways from it that are unclear.
 
 ## Comments for authors
 
 Thank you for your submission to FAST'26! I was very impressed with your paper.
 I enjoyed all your insights in this problem space and find the work quite
 impactful. I found the formal data separation model and its accompanying
-figures not only effective for communciating the insights on the tradeoff
+figures not only effective for communicating the insights on the tradeoff
 between WAF and OP space, but also a great help for facilitating understanding
 of the differences between SOTA and your work.
 
-Overall, I find your paper to be very strong and cannot overstate my apprecation
-for the level of rigor displayed with all the formalism, data measurement, and
-analysis. The evaluation across the various performance metrics is comprehensive
-and thorough. I did have some small concerns about the evaluation, which I
-expand more on in the detailed comments. But at a high level, there are certain
-aspects and takeaways from the presented results which left me with some
-confusion---I believe these can all be addressed with the inclusion of
-additional information.
+Overall, I find your paper to be very strong and appreciate the level of rigor
+displayed with all the formalism, data measurement, and analysis. The evaluation
+across the various performance metrics is comprehensive and thorough. I did have
+some concerns about the evaluation, which I expand more on in the detailed
+comments. But at a high level, there are certain aspects and takeaways from the
+presented results which left me with some confusion---I believe these can all be
+addressed with the inclusion of additional information.
 
 ### Detailed comments
 
@@ -78,7 +77,7 @@ additional information.
   starting from, and to the right of, 8U4G seem to have similar results. In
   particular, I'm curious about why 12U4G (not shown in Figure 17) was selected
   in particular and not 8U4G. The same goes for the reclustering interval of 8
-  segment writes (not show in Figure 17).
+  segment writes (not shown in Figure 17).
 
 - Page 11 (Adaptability to Dynamic Workloads): I think it'd be nice if there
   was some way to quantify the WAF volatility visualized in Figure 18. Especially
